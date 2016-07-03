@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Streaming video</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- ERREURS & SUCCES -->
+
+    <string name="success_login">Connexion réussie</string>
+    <string name="error_login">Connexion refusée</string>
+
+    <string name="success_selectedFile">La vidéo \"%1$s\" a bien été ajouté</string>
+    <string name="error_selectedFile">La vidéo \"%1$s\" n\'a pas été ajouté</string>
+
+
+    <string name="error_unknownMX">Impossible de trouver MX Video Player.</string>
+    <string name="error_back">Vous ne pouvez pas revenir en arrière</string>
+
+    <string name="error_connection">Veuillez connecter votre appareil à internet</string>
+    <string name="error_http">Une erreur est survenue! Http Status Code: </string>
+
+    <string name="error_exists">Vidéo déjà présente dans la liste</string>
+
+    <string name="error_permission">Permission non accordée</string>
+
+
+    <string name="button_launchVideo">Regarder une vidéo !</string>
+
+    <string name="user_login">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="signIn">Se connecter</string>
+
+
+    <string name="list_videos">Vidéos à lancer</string>
+    <string name="list_video">Vidéo à lancer</string>
+    <string name="no_video">Aucune vidéo</string>
+
+    <string name="list_teachers">Professeurs</string>
+    <string name="list_teacher">Professeur</string>
+    <string name="no_teacher">Aucun professeur</string>
+
+    <string name="no_video_toDelete">Aucune vidéo à supprimer</string>
+
+    <string name="upload_inProgress">Upload en cours ...</string>
+
+
+    <string name="student">&#201;tudiant</string>
+    <string name="teacher">Professeur</string>
+    <string name="home">Accueil</string>
+    <string name="add_video">Ajouter une vidéo</string>
+    <string name="remove_video">Supprimer une vidéo</string>
+    <string name="about">&#192; propos</string>
+    <string name="deconnection">Déconnexion</string>
+
+    <string name="about_student">Appuyez sur \"%1$s\" pour regarder la vidéo en cours</string>
+    <string name="about_teacher">Appuyez sur une des vidéos pour la lancer</string>
+    <string name="ok">Ok</string>
+
+
+    <string name="loading_connection">Connexion en cours...</string>
+    <string name="loading_wait">Veuillez patienter...</string>
+
+
+    <string name="select_video">Sélectionner une vidéo</string>
+    <string name="no_video_selected">Aucune vidéo sélectionnée</string>
+    <string name="validate">Valider</string>
+
+
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="confirm_remove_video">&#202;tes vous sûr(e) de vouloir supprimer la vidéo \"%1$s\"?</string>
+    <string name="remove_videoSelected">Suppression de la vidéo \"%1$s\" effectuée</string>
+
+</resources>

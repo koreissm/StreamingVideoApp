@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/normal_padding"
+        android:text="@string/user_login"
+        android:textSize="@dimen/normal_text_size"
+        android:textColor="@color/black_color"
+        android:id="@+id/loginTextView"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/loginTextView"
+        android:layout_gravity="center_horizontal"
+        android:hint="Login"
+        android:background="@color/background_color"
+        android:id="@+id/loginEditText"
+        android:textCursorDrawable="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginEditText"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/normal_padding"
+        android:textSize="@dimen/normal_text_size"
+        android:text="@string/password"
+        android:textColor="@color/black_color"
+        android:id="@+id/passwordTextView"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/passwordTextView"
+        android:hint="Password"
+        android:background="@color/background_color"
+        android:id="@+id/passwordEditText"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"/>
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:text="@string/signIn"
+        android:onClick="signIn"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/background_color"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

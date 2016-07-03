@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/add_video"
+            android:icon="@drawable/ic_menu_add_video"
+            android:title="@string/add_video" />
+
+        <item
+            android:id="@+id/remove_video"
+            android:icon="@drawable/ic_menu_remove_video"
+            android:title="@string/remove_video" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/deconnection"
+            android:icon="@drawable/ic_menu_deconnection"
+            android:title="@string/deconnection" />
+    </group>
+
+</menu>
